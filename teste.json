@@ -1,0 +1,337 @@
+{
+    "args": {
+        "dataset": "twitter",
+        "datain": "resources/datasets_10/",
+        "nfolds": 10,
+        "fold": 0,
+        "llm_method": "Llama3.1-I",
+        "type_classification": "zero-shot",
+        "is_prompt_shared": true,
+        "total_iterations": 6,
+        "total_instructions_per_iteration": 4,
+        "meta_prompt_instruction_quantity": 3,
+        "sampled_examples_per_category": 5,
+        "num_training_samples": 100,
+        "out": "resources/prompt/twitter/",
+        "prompt_dir": "resources/prompt/twitter/prompt.json",
+        "machine": "icarus",
+        "inputdir": "resources/datasets_10//twitter/",
+        "outputdir": "resources/prompt/twitter//Llama3.1-I/",
+        "outfilename": "resources/prompt/twitter//Llama3.1-I//optimization_process.json",
+        "start_cls_time": "06-04-2025 19:38:32"
+    },
+    "iteration": {
+        "iteration_0": {
+            "instruction_0": {
+                "response_prompt": "Classify the topic of the text exclusively among the references.",
+                "macro_f1": 0.6827722398292867,
+                "time_spent_instruction": 0,
+                "time_spent_classification": 5.706943511962891,
+                "y_pred_text": [
+                    "e",
+                    "e"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            }
+        },
+        "iteration_1": {
+            "instruction_0": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_1": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_2": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_3": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            }
+        },
+        "iteration_2": {
+            "instruction_0": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_1": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_2": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_3": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            }
+        },
+        "iteration_3": {
+            "instruction_0": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_1": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_2": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_3": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            }
+        },
+        "iteration_4": {
+            "instruction_0": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_1": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_2": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_3": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            }
+        },
+        "iteration_5": {
+            "instruction_0": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_1": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_2": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            },
+            "instruction_3": {
+                "response_prompt": "Classify the topic of the text exclusively among the references using a categorical decision and assign the corresponding uppercase alphabet letter of the category (A-F) without any additional text or information. This will result in a unidimensional response indicating the classification.",
+                "macro_f1": 0.6610083706969966,
+                "time_spent_instruction": 6.187972545623779,
+                "time_spent_classification": 5.450534343719482,
+                "y_pred_text": [
+                    "e",
+                    "d"
+                ],
+                "y_pred": [
+                    4,
+                    3
+                ]
+            }
+        }
+    },
+    "final_meta_prompt": "Your task is to create a concise and highly effective instruction for a classification problem using the following categories: {labels}. The goal is to maximize accuracy by ensuring that the instruction helps the model correctly classify examples into the appropriate category.\n\nTo assist you in crafting the instruction, we provide examples of previous instructions along with their quality scores. These examples are listed in ascending order of their performance, where higher scores reflect better accuracy, clarity, and relevance to the classification task. Use these examples to guide you in creating an improved instruction, but avoid copying them directly.\n\n{instructions}\n\nAdditionally, you will find examples of texts matched with their respective categories from the classification problem. These examples illustrate how texts are categorized and will help you understand the representation of each category. Use these examples to ensure that your instruction allows the model to accurately assign new examples to the correct categories with high precision.\n\n{examples}\n\nFocus on formulating an instruction that precisely aligns with the provided categories and achieves high classification accuracy. Your instruction should leverage insights from both the examples of previous instructions and the category-matching examples to effectively guide the model in its classification task.",
+    "time_prompt_optimization": 418.6435523033142,
+    "y_true": [
+        4,
+        1
+    ]
+}
